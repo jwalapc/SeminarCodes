@@ -1,0 +1,13 @@
+//Greater number from a numeric string
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	string s="4987356529";
+	sort(s.begin(),s.end(),greater<int>());
+	cout<<s<<endl;
+}
+
+
+//376376378227899999
